@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat,no-repeat;
+    background-position: top left, bottom right;
+    font-family: "League Spartan";
+    position: relative;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container .container-2,
+.container .prof {
+    width: 100%;
+    height: 50%;
+}
+
+.container .container-2 {
+    display: flex;
+}
+
+.container .container-2 .desc,
+.container .container-2 .rate {
+    width: 50%;
+    color: hsl(300, 43%, 22%);
+}
+
+.container .container-2 .desc h1 {
+    width: 70%;
+    padding: 0;
+    margin: 10px 0px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 40px;
+}
+
+.container .container-2 .desc p {
+    width: 80%;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.container .container-2 .rate {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+}
+
+.container .container-2 .rate .r-value {
+    width: 75%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    justify-content: center;
+}
+
+.container .container-2 .rate .r-value .img {
+    width: fit-content;
+    height: fit-content;
+    margin-right: 10px;
+    display: flex;
+}
+
+.container .container-2 .rate .r-value .img img {
+    width: 100%;
+    height: 100%;
+    margin: 0px 5px;
+}
+
+.container .container-2 .rate .value-2 {
+    margin-left: calc(25%/2);
+}
+
+.container .container-2 .rate .value-3 {
+    margin-left: calc(25%/1);   
+}
+
+.container .prof {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .prof .card {
+    background-color: hsl(300, 43%, 22%);
+    width: calc(90%/3);
+    height: 80%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container .prof .card .person {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+
+.container .prof .card .img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.container .prof .card .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.container .prof .card .p-data {
+    margin-left: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+.container .prof .card .p-data .name {
+    color: white;
+    font-weight: 500;
+    width: 100%;
+}
+
+.container .prof .card .p-data .title {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+.container .prof .card .need {
+    color: white;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container .prof .card-2 {
+    margin-top: 2%;
+}
+.container .prof .card-3 {
+    margin-top: 4%;
+}

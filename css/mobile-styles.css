@@ -1,0 +1,66 @@
+body {
+    background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+    height: fit-content;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 70px;
+}
+
+.container .container-2 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+}
+
+.container .container-2 .desc,
+.container .container-2 .rate {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+.container .container-2 .desc h1,
+.container .container-2 .desc p {
+    width: 100%;
+    height: fit-content;
+}
+
+.container .container-2 .rate .r-value {
+    width: 100%;
+    margin: 0px;
+    margin: 10px 0px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container .container-2 .rate .r-value .img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .container-2 .rate .r-value .img img {
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px;
+}
+
+.container .prof {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container .prof .card {
+    width: 100%;
+    margin: 10px auto;
+}
